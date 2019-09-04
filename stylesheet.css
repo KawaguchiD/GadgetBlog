@@ -1,0 +1,12 @@
+.header-logo {
+    font-size:50px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:black;
+    padding:33px 40px;
+}
+.header-list {
+    float:left;
+    list-style: none;
+    color:white;
+}
