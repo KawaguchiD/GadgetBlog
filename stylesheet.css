@@ -1,12 +1,87 @@
-.header-logo {
-    font-size:50px;
-    color:white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color:black;
-    padding:33px 40px;
-}
-.header-list {
+
+.header-list li {
     float:left;
     list-style: none;
-    color:white;
+    color:black;
+}
+p {
+    font-size:40px;
+    text-align:center;
+}
+img {
+    /* background-size: ; */
+    background-size: 100%;
+}
+.resizeimage img{ width: 100%; }
+/* .sp-image1{
+    width: 100%;
+}
+.sp-image2 {
+    width: 100%;
+}
+.sp-image3 {
+    width: 100%;
+} */
+.image {
+    height: 150px;
+}
+
+.slick-slide img {
+    opacity: 0.6;
+    transform: scale(0.80);
+    transition: all 300ms ease;
+}
+
+.slick-center img {
+    opacity: 1.0;
+    transform: scale(1.0);
+    transition: all 300ms ease;
+}
+.sample06 {
+	width: 300px;
+	height: 400px;
+	vertical-align: top;
+	border-radius: 6px;
+	box-shadow: 0px 2px 4px #aaa;
+	position: relative;
+    display: inline-block;
+    margin-left:50px;
+}
+.sample06 h2 {
+	font-size: 18px;
+	padding: 4px 16px;
+}
+.sample06 p {
+	padding: 4px 16px;
+}
+.sample06 img {
+	width: 300px;
+	height: 200px;
+    border-radius: 6px 6px 0 0;
+}
+.sample06 .mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	border-radius: 6px;
+    background: rgba(0,0,55,0.4);
+}
+.sample06:hover .mask {
+	opacity: 0.7;
+}
+
+.articles{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    text-decoration: none;
+    color:black;
+    font-family:'BatangChe';
+    margin:40px;
 }
